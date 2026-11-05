@@ -54,7 +54,7 @@ dict    {"a", 2}    yes       insertion order kept      Key-value lookup
 
 # list
 nums = [3, 1, 2]
-nums.append(4)          # push 
+nums.append(4)          # push  [3, 1, 2, 4]
 nums.pop()              # removes and returns last
 nums.sort()             # in place, returns None!
 sorted_copy = sorted(nums, reverse=True)   # new list
