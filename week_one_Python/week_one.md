@@ -60,6 +60,14 @@ nums.sort()             # in place, returns None!
 sorted_copy = sorted(nums, reverse=True)   # new list
 nums[1:3]               # slice -> new list
 
+
+<!-- Learning -->
+
+x = [0] * 3 = [0,0,0]
+sort() = return value null
+== opraters check equality 
+
+
 # tuple + unpacking (like JS destructuring)
 point = (10, 20)
 x, y = point

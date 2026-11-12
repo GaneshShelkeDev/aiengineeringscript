@@ -11,13 +11,13 @@
 
 
 list = [1,2, 50, 60, 'A', "Ganesh"]
-list.append(108)
+list.append(108)  
 list.remove(50)
 list.insert(2, 100)
 list.pop(3)
-# list.sort()
+# print(list.sort())
 list.reverse()
-# list.clear()
+list.clear()
 list.extend([1,2,3,4,5])
 list_copy = list.copy()
 list_count = list.count(1)
@@ -35,12 +35,26 @@ b.append(3)
 x = [[0] * 3] * 3
 # x = [[0, 0, 0]] * 3
 # x = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-print(x)
+# print(x)
 x[0][0] = 1
 # print(x) #[[1,0,0],[0,0,0],[0,0,0]]
 
 
 nums = [3, 1, 2]
-result = nums.sort()
-print(result)
-print(nums.sort())
+# result = nums.sort()
+# print(result, nums)
+# print(nums.sort())
+
+
+
+
+# Tuple
+
+point = (10, 2, "abc", True)
+
+
+# Set
+
+set = {2,5,8,"sdj"}
+set.add(10)
+print(set)
